@@ -1,0 +1,6 @@
+#Scaffold	Breakpoint(s)
+scaffold_1	4745099
+scaffold_2	3099739
+scaffold_4	1509719
+scaffold_8	767978
+scaffold_15	155000
