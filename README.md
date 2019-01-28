@@ -1,15 +1,12 @@
 # Assembly-bridge
 
-The assembler.py program links genomic scaffolds together into superscaffolds 
-using BLASR-aligned contigs from short-read de novo assemblies. The assembler.py 
-program requires the pysam module to be installed.
+The assembler.py program links together genomic scaffolds from a draft genome assembly into superscaffolds using BLASR-aligned sequence contigs from one or more other assemblies (typically short-read de novo assemblies, but the program is agnostic with respect to assembly method). The assembler.py program requires the pysam module to be installed.
 
 The script requires the following arguments to run:
-    -b/--bams: One or more BAM files of BLASR-aligned de novo assemblies.
-    -l/--length: An integer value specifying the minimum length a contig must
-                 be mapped to two scaffold ends in order to join them.
-    -d/--distance: An integer value specifying the maximum distance to look
-                   for contigs around scaffold ends.
+
+-b/--bams: One or more BAM files of BLASR-aligned de novo assemblies.
+-l/--length: An integer value specifying the minimum length a contig must be mapped to two scaffold ends in order to join them.
+-d/--distance: An integer value specifying the maximum distance to look for contigs around scaffold ends.
 
 The following optional arguments may be specified:
     -f/--fraction: The maximum fractional length of a scaffold to look for
