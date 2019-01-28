@@ -18,7 +18,7 @@ For publications resulting from use of the software, we request that users cite 
 
 ## Requirements
 
-The assembler.py program is written in python and requires the pysam module to be installed. The progam has been developed and tested with python 2.7 and pysam 0.14.1 .
+The assembler.py program is written in python and requires the pysam module to be installed. The progam has been developed and tested with [python](https://www.python.org/download/releases/2.7/) 2.7 and [pysam](https://pysam.readthedocs.io/en/latest/api.html/) 0.14.1 .
 
 ## Usage
 
