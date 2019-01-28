@@ -4,9 +4,9 @@ The assembler.py program links together genomic scaffolds from a draft genome as
 
 The script requires the following arguments to run:
 
--b/--bams: One or more BAM files of BLASR-aligned de novo assemblies.
--l/--length: An integer value specifying the minimum length a contig must be mapped to two scaffold ends in order to join them.
--d/--distance: An integer value specifying the maximum distance to look for contigs around scaffold ends.
+- -b/--bams: One or more BAM files of BLASR-aligned de novo assemblies.
+- -l/--length: An integer value specifying the minimum length a contig must be mapped to two scaffold ends in order to join them.
+- -d/--distance: An integer value specifying the maximum distance to look for contigs around scaffold ends.
 
 The following optional arguments may be specified:
     -f/--fraction: The maximum fractional length of a scaffold to look for
