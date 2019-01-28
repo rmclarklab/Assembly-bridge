@@ -34,6 +34,4 @@ The following optional arguments may be specified:
 
 Example command used to generate the information for Table S3:
 
-    ./assembler.py -b Heber.bam Lon_Inb.bam Parrott.bam RS.bam ShCo.bam \
-    SR-VP.bam -l 7500 -d 75000 -f 0.25 -r Breakpoints.txt -c scaffold_44 \
-    -k scaffold_15.1 scaffold_42 -t
+```./assembler.py -b Heber.bam Lon_Inb.bam Parrott.bam RS.bam ShCo.bam SR-VP.bam -l 7500 -d 75000 -f 0.25 -r Breakpoints.txt -c scaffold_44 -k scaffold_15.1 scaffold_42 -t```
