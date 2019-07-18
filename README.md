@@ -4,9 +4,9 @@ The assembler.py program links together genomic scaffolds from a draft genome as
 
 Specifically, assembler.py was developed to order and orient Sanger scaffolds in the draft genome sequence of the two-spotted spider mite (*Tetranychus urticae*) using Illumina *de novo* assemblies from multiple *T. urticae* strains. The command line used to do this is given below, and the output was used to construct Table S3 in the publication that describes the study and method (data files used as input for the program can be downloaded from the supporting material). The manuscript is:
 
-- Wybouw, N., Kosterlitz, O., Kurlovs, A. H., Bajda, S., Greenhalgh, R., Snoeck, S., Bui, H., Bryon, A., Dermauw, W., Van Leeuwen, T., and Clark, R. M. 2019. Long-term population studies uncover the genome structure and genetic basis of xenobiotic and host plant adaptation in the herbivore *Tetranychus urticae*. Under review (for a preprint, see bioRxiv 474064; doi: https://doi.org/10.1101/474064)
+- Wybouw, N., Kosterlitz, O., Kurlovs, A. H., Bajda, S., Greenhalgh, R., Snoeck, S., Bui, H., Bryon, A., Dermauw, W., Van Leeuwen, T., and Clark, R. M. Long-Term Population Studies Uncover the Genome Structure and Genetic Basis of Xenobiotic and Host Plant Adaptation in the Herbivore Tetranychus urticae. Genetics 211, 1409–1427 (2019). (doi: https://doi.org/10.1534/genetics.118.301803)
 
-For the data sets needed to test installation, and to replicate Table S3 in Wybouw et al. (2019), please contact Richard Clark (richard.m.clark@utah.edu). The data sets used as input will be available for public download as soon as the manuscript is accepted and appears online.
+For the data sets needed to test installation, and to replicate Table S3 in Wybouw et al. (2019), please contact Richard Clark (richard.m.clark@utah.edu).
 
 Although the program was written for and tested on draft genome sequences from *T. urticae*, it was designed to work for related genome projects for which comparable data sets and input files are available.
 
